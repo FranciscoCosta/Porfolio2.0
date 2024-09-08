@@ -1,12 +1,11 @@
-import { useState } from "react";
-
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <>
-      <h1 className="text-primary">Teste</h1>
-    </>
+    <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Navbar />
+    </main>
   );
 }
 export default App;
